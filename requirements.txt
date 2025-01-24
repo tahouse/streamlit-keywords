@@ -1,0 +1,2 @@
+# note these requirements are to run example.py 
+streamlit-keywords
