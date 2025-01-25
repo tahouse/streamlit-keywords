@@ -6,13 +6,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "streamlit-keywords"
-version = "0.1.8"
+version = "0.1.9"
 description = "A Streamlit custom component that provides enhanced usage over standard streamlit.multiselect. Users can enter free form text which will appear as separate keyword chips."
 readme = { file = "README.md", content-type = "text/markdown" }
 authors = [
     { name = "Tyler House", email = "26489166+tahouse@users.noreply.github.com" },
 ]
-license = { file = "LICENSE" }
+license = { text = "Apache-2.0" }
 requires-python = ">=3.7"
 keywords = [
     "streamlit",
