@@ -9,6 +9,10 @@ A Streamlit custom component that provides enhanced functionality over the stand
 
 **Author:** Tyler House ([@tahouse](https://github.com/tahouse))
 
+## Demo
+
+![Demo](https://raw.githubusercontent.com/tahouse/streamlit-keywords/main/docs/demo.gif)
+
 ## Features
 
 - 🏷️ **Keyword Entry**: Input multiple keywords as chips/tags.
@@ -46,7 +50,7 @@ st.write("Entered keywords:", keywords)
 
 ## Examples
 
-Here are some usage patterns to help you integrate `streamlit_keywords` into your Streamlit app. See `example.py` for more usage examples.
+Here are some usage patterns to help you integrate `streamlit_keywords` into your Streamlit app. See `examples/example.py` for more usage examples.
 
 ### Basic Keyword Input
 
