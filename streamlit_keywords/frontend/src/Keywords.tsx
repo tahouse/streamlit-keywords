@@ -15,9 +15,9 @@ interface PythonArgs {
 }
 
 const Keywords = (props: ComponentProps) => {
-  const {label, text, initialValue, maxKeywords}: PythonArgs =
+  const { label, text, initialValue, maxKeywords }: PythonArgs =
     props.args;
-  const {theme} = props;
+  const { theme } = props;
 
   const [value, setValue] = useState<string[]>(initialValue || []);
   const [inputValue, setInputValue] = useState<string>("");
@@ -76,7 +76,7 @@ const Keywords = (props: ComponentProps) => {
   });
 
   return (
-    <div style={{padding: "5px 0"}}>
+    <div style={{ padding: "6px 0" }}>
       <Autocomplete
         multiple
         freeSolo
@@ -106,7 +106,7 @@ const Keywords = (props: ComponentProps) => {
             <Chip
               variant="outlined"
               label={option}
-              {...getTagProps({index})}
+              {...getTagProps({ index })}
               onDelete={handleDelete(option)}
               sx={{
                 backgroundColor: theme?.primaryColor,
@@ -154,6 +154,7 @@ const Keywords = (props: ComponentProps) => {
                   borderColor: theme?.backgroundColor,
                 },
                 "&.Mui-focused fieldset": {
+                  border: 1,
                   borderColor: theme?.primaryColor,
                 },
                 "& input": {
