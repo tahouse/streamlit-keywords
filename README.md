@@ -2,8 +2,9 @@
 # Streamlit Keywords
 
 [![PyPI](https://img.shields.io/pypi/v/streamlit-keywords)](https://pypi.org/project/streamlit-keywords/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/streamlit-keywords)](https://pypi.org/project/streamlit-keywords/)
-![GitHub](https://img.shields.io/github/license/tahouse/streamlit-keywords)
+[![Total Downloads](https://static.pepy.tech/badge/streamlit-keywords)](https://pepy.tech/project/streamlit-keywords)
+[![Monthly Downloads](https://img.shields.io/pypi/dm/streamlit-keywords)](https://pypi.org/project/streamlit-keywords/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 A Streamlit custom component that provides enhanced functionality over the standard `streamlit.multiselect`. Users can enter free-form text which will appear as separate keyword chips.
 
