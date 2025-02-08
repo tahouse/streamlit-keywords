@@ -60,7 +60,7 @@ def keywords_input(
         label (str, optional): Label for the input component. Defaults to "Keywords Input".
         text (str, optional): Instructions for the input. Defaults to "Type a keyword and press Enter".
         max_keywords (Optional[int], optional): Maximum number of keywords allowed. Defaults to None.
-        key (str, optional): An optional string to use as the unique key for the widget. Defaults to None.
+        key (str, optional): An optional string to use as the unique key for the widget. Defaults to None. If you do not set this key, you cannot create more than on instance of this widget. All instances must have a unique key.
 
     Returns:
         List[str]: A list of entered keywords.

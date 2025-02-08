@@ -73,6 +73,7 @@ const Keywords = (props: ComponentProps) => {
 
   useEffect(() => {
     Streamlit.setFrameHeight();
+    Streamlit.setComponentValue(value);
   });
 
   return (
